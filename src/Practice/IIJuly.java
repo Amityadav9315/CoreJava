@@ -40,6 +40,7 @@ public class IIJuly {
 
         IIJuly obj=new IIJuly();
         obj.meth3();
+        fgfgjjf
 
     }
 }

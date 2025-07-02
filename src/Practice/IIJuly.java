@@ -25,14 +25,21 @@ public class IIJuly {
     }
 
     String meth4(){
-        System.out.println();
+        System.out.println("Today is Tuesday");
+        return new IIJuly().meth1(4,8);
 
     }
     int meth5(){
+        IIJuly obj=new IIJuly();
+        System.out.println(99);
+        return obj.meth2(5);
 
     }
 
     public static void main(String[] args) {
+
+        IIJuly obj=new IIJuly();
+        obj.meth3();
 
     }
 }
